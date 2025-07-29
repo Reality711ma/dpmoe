@@ -1,0 +1,10 @@
+DATASET:
+  NAME: "OfficeHome"
+TRAINER:
+  MoCoOp:
+    LASP_PROMPTS: [
+        "an art picture of a {}.",
+        "a clipart of a {}.",
+        "a product of a {}.",
+        "a photo of a {}.",
+    ]

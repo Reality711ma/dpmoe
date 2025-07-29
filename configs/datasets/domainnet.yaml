@@ -1,0 +1,13 @@
+DATASET:
+  NAME: "DomainNet"
+TRAINER:
+  MoCoOp:
+    LASP_PROMPTS: [
+        "a clipart of a {}.",
+        "an infograph of a {}.",
+        "a painting of a {}.",
+        "a quickdraw of a {}.",
+        "a sketch of a {}.",
+        "a photo of a {}.",
+    ]
+
